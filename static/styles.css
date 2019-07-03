@@ -1,0 +1,55 @@
+#head {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+#body {
+  height: 50px;
+  width: 50px;
+  position: absolute;  
+}
+
+#snake-body {
+  background-image: url(assets/forest.jpg);
+}
+
+.grid-board-score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} 
+
+#board {
+  background-color: rgba(255, 151, 151, 0.9);
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
+  position: relative;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+#p2button {
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+#score {
+  text-align: center;
+  font-size: 100;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center; 
+  height: 500px;
+  width: 700px;
+}

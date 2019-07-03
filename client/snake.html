@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snake</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src='static/Apple.js'></script>
+  <script src='static/Body.js'></script>
+  <script src='static/Head.js'></script>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body id="snake-body">
+  <div class='grid-board-score'>
+      <div id="board"></div>
+      <div class='flex-container' id="score-container">
+        <div id="score">
+          Score: 0
+        </div>
+        <button onclick="setPlayer2()" id='p2button' >2 Player</button>
+      </div>
+      <h4>Game kindly provided by Ryan Dang and Alfredo Alpizar</h4>
+  </div>
+</body>
+<script src='/socket.io/socket.io.js'></script>
+<script src="static/main.js"></script>
+</html>
