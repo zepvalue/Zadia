@@ -6,7 +6,7 @@
 - [x] Players id are gonna be the socket id (unique id that changes every connection )
 
 ### STRETCH FEATURES
-- [ ] The user should be created as soon the socket gets connected if guest
+- [x] The user should be created as soon the socket gets connected if guest
 - [ ] Otherwise CRUD system with MongoDB
 - [ ] Setting up react from the controller interface 
 - [ ] Hot reloading and optimization with webpack

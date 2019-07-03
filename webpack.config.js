@@ -1,5 +1,6 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require('webpack')
 
 
 module.exports = {
@@ -9,11 +10,20 @@ module.exports = {
         filename: "bundle.js",
         path: __dirname + '/build',
     },
+    devServer: {
+        port: 8080,
+        publicPath: '/build',
+        proxy: {
+            '/': 'http://localhost:5000'
+        },
+        hot:true,
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].css',
             chunkFilename: '[id].css',
         }),
+        new webpack.HotModuleReplacementPlugin()
     ],
     module: {
         rules: [
