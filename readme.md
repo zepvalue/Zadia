@@ -1,7 +1,7 @@
 ### INITIAL MVP
 
 - [x] Create the main screen with a simple canvas
-- [x] Have the client emit sockets to the serve r
+- [x] Have the client emit sockets to the server
 - [x] Server responds back to the client wit ha asocket 
 - [x] Players id are gonna be the socket id (unique id that changes every connection )
 
