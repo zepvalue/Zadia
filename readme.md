@@ -10,6 +10,5 @@
 - [ ] Otherwise CRUD system with MongoDB
 - [ ] Setting up react from the controller interface 
 - [ ] Hot reloading and optimization with webpack
-- [ ] 
 
 
