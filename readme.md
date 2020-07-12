@@ -17,4 +17,4 @@ Little side-project to emulate a full gaming interface while learning nodeJS
 
 ### SCREENSHOT
 
-![alt text](https://github.com/zepvalue/Zadia/master/screenshot/previewController2Players.jpg?raw=true)
+![alt text](https://github.com/zepvalue/Zadia/blob/master/screenshot/previewController2Players.jpg?raw=true)
